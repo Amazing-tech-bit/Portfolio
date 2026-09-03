@@ -84,7 +84,7 @@ header {
     font-size: clamp(50px, 8vw, 90px);
     line-height: 0.95;
     letter-spacing: -4px;
-    margin-buttom: 10px;
+    margin-bottom: 10px;
 }
 .hero h1 span {
     display: block;
