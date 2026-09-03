@@ -440,6 +440,10 @@ body.dark .btn, body.dark .btn-secondary {
     .section-title h2 {
         font-size: 35px;
     }
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 }
 
 
