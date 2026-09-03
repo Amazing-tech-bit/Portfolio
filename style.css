@@ -82,15 +82,17 @@ header {
 }
 .hero h1 {
     font-size: clamp(50px, 8vw, 90px);
-    line-height: 1;
-    letter-spacing: -3px;
+    line-height: 0.95;
+    letter-spacing: -4px;
+    margin-buttom: 10px;
 }
 .hero h1 span {
     display: block;
 }
 .hero h2 {
-    margin-top: 20px;
-    font-size: 25px;
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 1.4px;
 }
 .hero-text > p:not(.intro) {
     max-width: 550px;
@@ -101,18 +103,31 @@ header {
     display: flex;
     gap: 15px;
     margin-top: 30px;
+    flex-wrap: wrap;
 }
 .btn {
-    padding: 13px 22px;
-    border: 1px solid #172033;
+    display: inline-block;
+    padding: 14px 24px;
+    border: 2px solid #172033;
     border-radius: 6px;
     font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
 }
 .btn:hover {
-    transform: translateY(-2px);
+    transform: translateY(-3px);
 }
 .btn-secondary {
     background: transparent;
+    padding: 14px 24px;
+    border: 2px solid #172033;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.btn-secondary:hover {
+    background: #172033;
+    color: white;
 }
 
 /* HERO CARD */
