@@ -389,7 +389,7 @@ body.dark .btn, body.dark .btn-secondary {
         font-size: 60px;
     }
     .hero h2 {
-        margin-bottom: -35px;
+        margin-bottom: auto;
     }
     .hero-card {
         padding: 35px 20px;
