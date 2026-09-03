@@ -352,10 +352,27 @@ body.dark .btn {
 
     .hero {
         grid-template-columns: 1fr;
-        padding-top: 130px;
+        padding-top: 110px;
+        gap: 40px;
+    }
+    .hero-buttons {
+        flex-direction: column;
+        align-items: flex-start;
     }
     .hero h1 {
         font-size: 60px;
+    }
+    .hero-card {
+        padding: 35px 20px;
+    }
+    .hero-text {
+        display: contents;
+    }
+    .hero-card {
+        order: 2;
+    }
+    .hero-buttons {
+        order: 3;
     }
     .skills-container {
         grid-template-columns: 1fr;
