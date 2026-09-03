@@ -362,7 +362,7 @@ body.dark .project-card {
 }
 
 body.dark .social-links a,
-body.dark .btn, .btn-secondary {
+body.dark .btn, body.dark .btn-secondary {
     border-color: #e8ec01;
     background: transparent;
     color: #e8ec01;
