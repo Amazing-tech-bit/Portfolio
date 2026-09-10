@@ -30,3 +30,4 @@ stars.forEach(function(star) {
         
     });
 });
+console.log("Rating is working");
