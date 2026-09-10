@@ -533,6 +533,15 @@ body.dark .skill-card {
         grid-template-columns: 1fr;
         padding-top: 110px;
         gap: 30px;
+        min-width: 0;
+    }
+    .hero-text {
+        display: contents;
+    }
+    .hero-text,
+    .hero-card,
+    .hero-buttons {
+        min-width: 0;
     }
     .hero-buttons {
         display: flex;
