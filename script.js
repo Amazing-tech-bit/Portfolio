@@ -11,11 +11,14 @@ themeButton.addEventListener("click", function () {
 
 const stars = document.querySelectorAll(".stars button");
 const ratingInput = document.getElementById("rating");
+const ratingMessage = document.getElementById("rating-message");
 
 stars.forEach(function(star) {
     star.addEventListener("click", function () {
         const rating = star.getAttribute("data-rating");
         ratingInput.value = rating;
+        ratingMessage.textContent = `You selected ${rating} out of 5 stars ⭐`;
+
 
         stars.forEach(function(s) {
            s.classList.remove("selected");
