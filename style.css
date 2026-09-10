@@ -17,7 +17,6 @@ body {
     color: #172033;
     line-height: 1.6;
     transition: 0.3s;
-    overflow-x: hidden;
 }
 
 a {
@@ -580,6 +579,10 @@ body.dark .skill-card {
     }
     .contact-form {
         width: 100%;
+    }
+    .contact-text {
+        max-width: 100%;
+        margin: 0 20px;
     }
     .contact-form input,
     .contact-form textarea {
