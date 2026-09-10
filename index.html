@@ -94,6 +94,48 @@
         </div>
     </section>
 
+        <!--EDUCATION SECTION-->
+    <section id="education" class="section">
+        <div class="section-title">
+            <p>MY BACKGROUND</p>
+            <h2>Education and Experience</h2>
+        </div>
+        
+        <article class="timeline">
+            <div class="timeline-item">
+                <span class="timeline-date">Academic Background</span>
+                <h3>BTech Medical Laboratory Science</h3>
+                <h4>Accra Technical University</h4>
+                <p>
+                    Academic training in Medical laboratory science,
+                    developing scientific knowledge, laboratory skills, 
+                    analytical thinking and professional discipline.
+                </p>
+            </article>
+
+            <article class="timeline-item">
+                <span class="timeline-date">Professional Background</span>
+                <h3>Medical Laboratory Scientist</h3>
+                <h4>Healthcare & Laboratory practice</h4>
+                <p>
+                    Applying scientific knowledge and laboratory
+                    principles while developing professional experience
+                    in medical laboratory field.
+                </p>
+            </article>
+
+            <article class="timeline-item">
+                <span class="timeline-date">2026 - Present</span>
+                <h3>Web Development Journey</h3>
+                <h4>Self Learning</h4>
+                <p>
+                    Currently learning HTML and CSS and gradually expanding
+                    my knowledge of web development.
+                </p>
+            </article>
+        </div>
+    </section>
+    
     <!--SKILLS SECTION-->
     <section id="skills" class="section">
         <div class="section-title">
@@ -157,47 +199,39 @@
         </div>
     </section>
 
-    <!--EDUCATION SECTION-->
-    <section id="education" class="section">
+    <section id="ratings" class="section">
         <div class="section-title">
-            <p>MY BACKGROUND</p>
-            <h2>Education and Experience</h2>
+            <p>YOUR FEEDBACK</p>
+            <h2>Rate My Portfolio</h2>
         </div>
-        
-        <article class="timeline">
-            <div class="timeline-item">
-                <span class="timeline-date">Academic Background</span>
-                <h3>BTech Medical Laboratory Science</h3>
-                <h4>Accra Technical University</h4>
-                <p>
-                    Academic training in Medical laboratory science,
-                    developing scientific knowledge, laboratory skills, 
-                    analytical thinking and professional discipline.
-                </p>
-            </article>
+        <p class="ratings-text">
+            I value your feedback! Please rate my portfolio and share your thoughts.
+            Your input will help me improve and create a better experience for visitors.
+        </p>
 
-            <article class="timeline-item">
-                <span class="timeline-date">Professional Background</span>
-                <h3>Medical Laboratory Scientist</h3>
-                <h4>Healthcare & Laboratory practice</h4>
-                <p>
-                    Applying scientific knowledge and laboratory
-                    principles while developing professional experience
-                    in medical laboratory field.
-                </p>
-            </article>
+        <form action="https://formspree.io/f/xdeobdob" class="rating-form" method="POST">
+            <label for="rating">Your Rating</label>
+            
+            <div class="stars">
+                <button type="button" data-rating="1">★</button>
+                <button type="button" data-rating="2">★</button>
+                <button type="button" data-rating="3">★</button>
+                <button type="button" data-rating="4">★</button>
+                <button type="button" data-rating="5">★</button>
+            </div>
 
-            <article class="timeline-item">
-                <span class="timeline-date">2026 - Present</span>
-                <h3>Web Development Journey</h3>
-                <h4>Self Learning</h4>
-                <p>
-                    Currently learning HTML and CSS and gradually expanding
-                    my knowledge of web development.
-                </p>
-            </article>
-        </div>
+            <input type="hidden" id="rating" name="rating" required>
+
+            <label for="reviewer-name">Your Name</label>
+            <input type="text" id="reviewer-name" name="reviewer-name" placeholder="Enter your name" required>
+
+            <label for="review">Your Comment</label>
+            <textarea id="review" name="review" rows="4" placeholder="What do you think about my portfolio?" required></textarea>
+
+            <button type="submit">Submit Rating</button>
+        </form>
     </section>
+    
 
     <!--CONTACT SECTION-->
     <section id="contact" class="section-contact-section">
