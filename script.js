@@ -27,7 +27,6 @@ stars.forEach(function(star) {
         for (let i = 0; i < rating; i++) {
             stars[i].classList.add("selected");
         }
-        /*document.getElementById("rating").value = rating;*/
-        console.log("Rating selected: " + rating + " stars");
+        
     });
 });
