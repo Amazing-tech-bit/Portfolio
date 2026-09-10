@@ -549,9 +549,7 @@ body.dark .skill-card {
     .hero-card {
         padding: 35px 20px;
     }
-    .hero-text {
-        display: contents;
-    }
+    
     .hero-card {
         order: 2;
     }
