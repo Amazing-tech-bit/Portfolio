@@ -524,9 +524,7 @@ body.dark .skill-card {
 
 /* Mobile */
 @media (max-width: 768px) {
-    * {
-        outline: 1px solid red;
-    }
+   
     .nav-links {
         display: none;
     }
