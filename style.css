@@ -316,7 +316,6 @@ header {
 .timeline {
     max-width: 900px;
     margin: auto;
-    padding-left: 35px;
 }
 .timeline-item {
     padding: 30px;
